@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Me</title>
+    <style>
+      body { font-family: Verdana, sans-serif;
+            display: block;
+            justify-content: center;
+            align-items: center; }
+        .section { margin-bottom: 20px; }
+        h1, h2 { color: slateblue; }
+      nav { background-color: slateblue;
+           width: 100%;
+           background-size: cover;
+           padding: 10px;
+           text-align: center; }
+      nav ul { list-style: none; }
+      nav ul li { display: inline;
+                 margin: 20px; }
+      nav ul li a { color: white;
+                   font-weight: bold;
+                   padding: 8px 12px; }
+      nav ul li a:hover { color: lightgray; }
+      .form-container { background-color: #f8f8f8;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: left;
+            align-items: center; }
+      .form-container label { color: slateblue;
+                  font-weight: bold;
+                  display: block;
+                  margin-top: 10px; }
+      .form-container input,
+      .form-container textarea { width: 100%;
+                                 padding: 8px;
+                                 margin-top: 5px;
+                                 border: 1px;
+                                 border-style: solid;
+                                 border-color: black;
+                                 border-radius: 3px; }
+      .form-container textarea { height: 200px;
+                           resize: vertical; }
+      .form-container input[type="submit"] { background-color: slateblue;
+                                 color: white;
+                                 cursor: pointer;
+                                 font-size: 16px;
+                                 padding: 10px;
+                                 margin-top: 15px;
+                                 border-radius: 4px; }
+      .form-container input[type="submit"]:hover { background-color: darkslateblue; }
+    </style>
+  </head>
+    <body>
+      <nav>
+        <ul>
+        <li>
+        <a href="homepage.html">Home</a>
+        </li>
+        <li>
+        <a href="aboutme.html">About Me</a>
+        </li>
+        <li>
+        <a href="resume.html">Resume</a>
+        </li>
+        <li>
+        <a href="contactme.html">Contact Me</a>
+        </li>
+        </ul>
+      </nav>
+  <div class="form-container">
+  <h2>Contact Me</h2>
+  <form>
+    
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+    
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+    
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject">
+    
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea>
+    
+  <input type="submit" value="Submit">
+  </form>
+  </div>
+</body>
+</html>
