@@ -1,2 +1,12 @@
 .homeheader {
-  color: 
+            font-family: Verdana, sans-serif;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            color: blue}
+.section { margin-bottom: 20px; }
+nav { background-color: slateblue;
+      width: 100%;
+      background-size: cover;
+      padding: 10px;
+      text-align: center; }
