@@ -2,24 +2,8 @@
 <html>
 <head>
     <title>My Resume</title>
-    <style>
-        body { font-family: Verdana, sans-serif; }
-        .section { margin-bottom: 20px; }
-        h1, h2 { color: slateblue; }
-        .work-experience, .education { margin-left: 20px; }
-        nav { background-color: slateblue;
-           background-size: cover;
-           padding: 10px;
-           text-align: center; }
-      nav ul { list-style: none; }
-      nav ul li { display: inline;
-                 margin: 20px; }
-      nav ul li a { color: white;
-                   font-weight: bold;
-                   padding: 8px 12px; }
-      nav ul li a:hover { color: lightgray }
-    </style>
-        <nav>
+    <link rel="stylesheet" href="styles.css">
+        <nav class="resumenav">
         <ul>
         <li>
         <a href="homepage.html">Home</a>
@@ -36,20 +20,19 @@
         </ul>
         </nav>
 </head>
-<body>
-
+<body class="resumebg">
     <header>
-        <h1>Hannah Markin</h1>
+        <h1 class="resumeheader">Hannah Markin</h1>
         <p>hannahmarkin@gmail.com • (419) 265-4305 • Toledo, OH</p>
     </header>
 
-    <section class="section">
-        <h2>Professional Summary</h2>
+    <section class="resumesection">
+        <h2 class="resumesubheader">Professional Summary</h2>
         <p>Highly driven web development student seeking internship experience where I can apply my skills in coding (Python, JavaScript), HTML, CSS, React, GitHub, and debugging to help create intuitive webpages and platforms with proven reliability and increase in traffic. Ample experience with UI development, code reviews, and collaboration among various teams.</p>
     </section>
 
-    <section class="section">
-        <h2>Work Experience</h2>
+    <section class="resumesection">
+        <h2 class="resumesubheader">Work Experience</h2>
         <div class="work-experience">
             <h3>Junior Web Developer (Part-Time) - TechStart Inc. 1</h3>
             <p>September 2022 - Present</p>
@@ -72,8 +55,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <h2>Education</h2>
+    <section class="resumesection">
+        <h2 class="resumesubheader">Education</h2>
         <div class="education">
             <h3>Web Development - Rize University</h3>
             <p>August 2024 - May 2027</p>
